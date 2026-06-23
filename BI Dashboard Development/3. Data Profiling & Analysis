@@ -1,0 +1,113 @@
+# 📋 Step 3: Data Profiling & Analysis
+
+The goal of this phase is to **understand the data**, **validate its quality**, and **identify any issues before building the data model**.
+
+## Data Profiling & Analysis Questionnaire
+
+### 📊 Understand the Data
+
+* [ ] What does each table represent?
+* [ ] What does each column represent?
+* [ ] Which columns are dimensions?
+* [ ] Which columns are measures?
+* [ ] Are the data types correct (Date, Number, Text, Boolean)?
+
+---
+
+### 📅 Date Analysis
+
+* [ ] What is the minimum and maximum date available?
+* [ ] Are there any missing dates?
+* [ ] Is the data available for the required reporting period?
+* [ ] Are date formats consistent across all sources?
+
+---
+
+### 🔍 Data Completeness
+
+* [ ] Are there any missing (NULL) values?
+* [ ] Which fields have missing values?
+* [ ] Are mandatory fields populated?
+* [ ] Is any critical data unavailable?
+
+---
+
+### 🧹 Data Quality
+
+* [ ] Are there duplicate records?
+* [ ] Are there invalid values?
+* [ ] Are there inconsistent naming conventions?
+* [ ] Are there spelling or formatting inconsistencies?
+* [ ] Are values standardized across all sources?
+
+---
+
+### 📈 Measure Validation
+
+* [ ] Are numeric fields stored as numbers?
+* [ ] Are there negative values where they shouldn't exist?
+* [ ] Are totals and subtotals reasonable?
+* [ ] Do the values match the source system or business reports?
+
+---
+
+### 🏷️ Dimension Validation
+
+* [ ] Are category names consistent?
+* [ ] Are there unexpected or duplicate categories?
+* [ ] Are hierarchy values correct?
+* [ ] Are master/reference data values valid?
+
+---
+
+### 🔗 Relationship Analysis
+
+* [ ] Can every fact record be linked to a dimension?
+* [ ] Are there orphan records?
+* [ ] Are key fields unique where expected?
+* [ ] Are there duplicate keys?
+
+---
+
+### 📊 Data Distribution
+
+* [ ] How many records are available?
+* [ ] Which values occur most frequently?
+* [ ] Are there any outliers or unusual patterns?
+* [ ] Are there unexpected spikes or drops?
+
+---
+
+### ✔️ Business Rule Validation
+
+* [ ] Does the data follow business rules?
+* [ ] Are KPI calculations producing expected results?
+* [ ] Do totals match existing reports?
+* [ ] Are any business exceptions identified?
+
+---
+
+### ⚠️ Issues & Risks
+
+* [ ] What data quality issues were found?
+* [ ] Which issues need to be fixed before development?
+* [ ] Can any issues be handled during ETL?
+* [ ] Are there any risks that need stakeholder confirmation?
+
+---
+
+# ✅ Deliverables
+
+By the end of this phase, you should have:
+
+* [ ] Data profiling report
+* [ ] Data quality assessment
+* [ ] List of missing or invalid values
+* [ ] Duplicate record analysis
+* [ ] Key and relationship validation
+* [ ] Business rule validation results
+* [ ] List of data cleansing requirements
+* [ ] List of assumptions and known limitations
+---
+
+> **Note:** Do **not** fix the data in this phase. The objective is to **profile, analyze, and document** the data. Data cleansing and transformations will be addressed in the **ETL/Data Preparation** stage.
