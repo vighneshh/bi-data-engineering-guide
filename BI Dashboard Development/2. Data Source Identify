@@ -1,0 +1,94 @@
+# 📋 Step 2: Data Source Identification & Assessment
+
+The goal of this phase is to understand **where the data comes from**, **whether it is reliable**, and **whether it can support the business requirements**.
+
+## Data Source Identification Questionnaire
+
+### 🗄️ Data Sources
+
+* [ ] What are the source systems?
+* [ ] How many data sources are involved?
+* [ ] What type of source is each one?
+
+---
+
+### 📋 Required Tables & Files
+
+* [ ] Which tables, views, or files are required?
+* [ ] Which table contains each required KPI?
+* [ ] Which table contains each required dimension?
+* [ ] Are there lookup or master tables?
+
+---
+
+### 🔑 Primary Keys & Relationships
+
+* [ ] What is the primary key of each table?
+* [ ] How are the tables related?
+* [ ] Are there any composite keys?
+* [ ] Are there any bridge or mapping tables required?
+
+---
+
+### 📊 Required Fields
+
+* [ ] Which fields are required from each table?
+* [ ] Are all required KPIs available?
+* [ ] Are all required dimensions available?
+* [ ] Are there any calculated fields that need to be created?
+
+---
+
+### 📅 Data Availability
+
+* [ ] What date range is available?
+* [ ] Is historical data available?
+* [ ] Is there enough data for trend analysis?
+* [ ] Are there any gaps in the data?
+
+---
+
+### 🔄 Data Refresh
+
+* [ ] How often is the source data updated?
+* [ ] What time is new data available?
+* [ ] Is the refresh automatic or manual?
+* [ ] Does the dashboard refresh schedule align with the source?
+
+---
+
+### ✅ Data Quality
+
+* [ ] Is the data complete?
+* [ ] Are there missing values?
+* [ ] Are there duplicate records?
+* [ ] Are there inconsistent formats or naming conventions?
+* [ ] Are there known data quality issues?
+
+---
+
+### 📐 Data Definitions
+
+* [ ] What does each field represent?
+* [ ] Are business definitions documented?
+* [ ] Are KPI definitions consistent across systems?
+* [ ] Are there any business rules applied in the source?
+
+---
+
+### 🔐 Data Access
+
+* [ ] Do I have access to all required data sources?
+* [ ] Are there any permission restrictions?
+* [ ] Who is the data owner or point of contact?
+* [ ] Are credentials or connections already available?
+
+---
+
+### ⚠️ Risks & Dependencies
+
+* [ ] Are there any missing datasets?
+* [ ] Are any fields unavailable?
+* [ ] Are there dependencies on other teams?
+* [ ] Are there any known limitations that could impact the dashboard?
+
