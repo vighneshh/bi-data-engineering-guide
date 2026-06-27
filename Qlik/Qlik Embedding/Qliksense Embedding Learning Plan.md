@@ -1,4 +1,4 @@
-# 🚀 Extending Qlik Sense Training Plan
+# 🚀 Qlik Sense Embedding Learning Plan
 
 A structured learning roadmap for developers who want to build custom solutions using **Qlik Sense**, **Mashups**, **Dev Hub**, and modern web technologies.
 
