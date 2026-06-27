@@ -1,98 +1,225 @@
-# Extending Qlik Sense Training Plan
+# 🚀 Extending Qlik Sense Training Plan
 
-Converted from Excel.
+A structured learning roadmap for developers who want to build custom solutions using **Qlik Sense**, **Mashups**, **Dev Hub**, and modern web technologies.
 
-> Note: If there are any changes or you need more information, reach out at **gawadvighnesh@gmail.com**.
+---
 
-## Basics Of Web Development
+## 📖 Overview
 
-### Advanced None
+This training plan covers everything required to start developing custom Qlik Sense applications, from basic web development to advanced mashup development.
 
+By the end of this training, you will be able to:
 
-### 1.0 Basic of Html & CSS
+* Build modern web pages using HTML, CSS and JavaScript
+* Understand JSON and browser developer tools
+* Embed Qlik Sense applications using iFrames
+* Create Qlik Sense Mashups
+* Work with Qlik Sense APIs
+* Build responsive applications using modern web templates
 
-- **Duration:** 5-6 hr
-- **Reference:** https://scrimba.com/learn/htmlandcss
+---
 
-### 2.0 Basics of JavaScript
+## 📬 Contact
 
-- **Duration:** 9 hr
-- **Reference:** https://scrimba.com/learn/learnjavascript
+If you have questions, suggestions, or need additional learning material, feel free to contact:
 
-### 3.0 Basics of JSON
+**📧 [gawadvighnesh@gmail.com](mailto:gawadvighnesh@gmail.com)**
 
-- **Duration:** 15 min
-- **Reference:** https://www.w3schools.com/js/js_json_intro.asp
+---
 
-### 4.0 Chrome Dev Tools
+# 📚 Table of Contents
 
-- **Prerequisites:** HTML, CSS, JS 
-- **Duration:** 1 hr
-- **Reference:** https://www.youtube.com/watch?v=gTVpBbFWry8
+* [Module 1 – Basics of Web Development](#-module-1--basics-of-web-development)
+* [Module 2 – Advanced Web Development (Optional)](#-module-2--advanced-web-development-optional)
+* [Module 3 – Qlik Sense Dev Hub & iFrames](#-module-3--qlik-sense-dev-hub--iframes)
+* [Module 4 – Qlik Mashup Development](#-module-4--qlik-mashup-development)
+* [Final Project](#-final-project)
 
-## Assignement: Complete exercises given in course and show small project to teamleads 
+---
 
-## Advanced Web Development (Optional )
+# 📘 Module 1 – Basics of Web Development
 
-### 5.0 Bootstrap
+## Learning Goal
 
-- **Prerequisites:** HTML, CSS, JS 
-- **Reference:** https://scrimba.com/learn/bootstrap4
+Understand the core technologies required before developing Qlik Sense Mashups.
 
-### 6.0 NodeJs
+| Topic                         | Duration | Prerequisites         | Resource                                       |
+| ----------------------------- | -------- | --------------------- | ---------------------------------------------- |
+| **1. HTML & CSS Basics**      | 5–6 hrs  | None                  | https://scrimba.com/learn/htmlandcss           |
+| **2. JavaScript Basics**      | 9 hrs    | None                  | https://scrimba.com/learn/learnjavascript      |
+| **3. JSON Basics**            | 15 mins  | None                  | https://www.w3schools.com/js/js_json_intro.asp |
+| **4. Chrome Developer Tools** | 1 hr     | HTML, CSS, JavaScript | https://www.youtube.com/watch?v=gTVpBbFWry8    |
 
-- **Prerequisites:** HTML, CSS, JS 
-- **Reference:** https://www.youtube.com/watch?v=fBNz5xF-Kx4
+### ✅ Assignment
 
-### 7.0 ReactJS
+* Complete all exercises from the courses.
+* Build a small web project using HTML, CSS and JavaScript.
+* Demonstrate the project to your Team Lead.
 
-- **Prerequisites:** HTML, CSS, JS 
-- **Reference:** https://scrimba.com/learn/learnreact
+---
 
-## Assignement: Complete exercises given in course and show small project to teamleads 
+# 🌐 Module 2 – Advanced Web Development (Optional)
 
-## Qlik Sense Dev Hub & Iframes
+These topics are optional but highly recommended.
 
-### 8.0 Qlik Sense Dev Hub
+| Topic            | Prerequisites         | Resource                                    |
+| ---------------- | --------------------- | ------------------------------------------- |
+| **5. Bootstrap** | HTML, CSS, JavaScript | https://scrimba.com/learn/bootstrap4        |
+| **6. Node.js**   | HTML, CSS, JavaScript | https://www.youtube.com/watch?v=fBNz5xF-Kx4 |
+| **7. React.js**  | HTML, CSS, JavaScript | https://scrimba.com/learn/learnreact        |
 
-- **Subtopics:** 1. Single configurator
-2. Extension editor
-3. Mashup editor
-4. QlikView converter
-5. Engine API explorer
-- **Duration:** 30 min
+### ✅ Assignment
 
-### 9.0 QlikSense Iframe Embedding
+Create a small responsive web application using one of the technologies above and present it to your Team Lead.
 
-- **Subtopics:** Embedding charts and sheets Using Iframe- Qlik Sense
-- **Prerequisites:** Iframe, Basics Web Development Understanding
-- **Duration:** 3 min
-- **Reference:** https://www.youtube.com/watch?v=9B_OlhzGwhw&t=158s
+---
 
-## Assignement: Embedd Qliksense sheet or chart in HTML project you have created previously.
+# 🛠 Module 3 – Qlik Sense Dev Hub & iFrames
 
-## Qlik Mashup Development
+## 8. Qlik Sense Dev Hub
 
-### 10.0 Qlik Mashup Development
+**Duration:** 30 minutes
 
-- **Subtopics:** Getting started building mashup
-- **Prerequisites:** Html, CSS, Javascript
-- **Duration:** 5 min
-- **Reference:** https://www.youtube.com/watch?v=dyTAXzcgR5E
+Topics covered:
 
-## Assignement: Create simple mashup project.
+* Single Configurator
+* Extension Editor
+* Mashup Editor
+* QlikView Converter
+* Engine API Explorer
 
-### 11.0 Qlik Sense APIs
+---
 
-- **Subtopics:** Qlik Sene API Eessentials
-- **Prerequisites:** Html,Javascript and Json (https://www.w3schools.com/html/default.asp)
-- **Duration:** 1 - 1/2 hrs
-- **Reference:** https://www.udemy.com/course/qlik-sense-api-essentials/
+## 9. Embedding Qlik Sense using iFrames
 
-### 12.0 Qlik Mashup with Admin Web Templates
+**Duration:** 3 minutes
 
-- **Subtopics:** Qlik Mashup with Admin Web Template
-- **Duration:** 1 hr
-- **Reference:** https://www.youtube.com/watch?v=QPuvolJ_NbE&list=PLYjPUKwx_ZbchXt8UybfW4WtxzqU79kac
+### Prerequisites
 
-## Assignement: Choose one admin template from internet and intergrate in qlik sense mashup.
+* Basic Web Development
+* HTML
+* Understanding of iFrames
+
+### Resource
+
+https://www.youtube.com/watch?v=9B_OlhzGwhw&t=158s
+
+### ✅ Assignment
+
+Embed a Qlik Sense sheet or chart into the HTML project you created in Module 1.
+
+---
+
+# ⚡ Module 4 – Qlik Mashup Development
+
+## 10. Getting Started with Qlik Mashups
+
+**Duration:** 5 minutes
+
+### Prerequisites
+
+* HTML
+* CSS
+* JavaScript
+
+### Resource
+
+https://www.youtube.com/watch?v=dyTAXzcgR5E
+
+### ✅ Assignment
+
+Create your first Qlik Sense Mashup.
+
+---
+
+## 11. Qlik Sense APIs
+
+**Duration:** 1.5 hours
+
+### Topics
+
+* Qlik Sense API Essentials
+
+### Prerequisites
+
+* HTML
+* JavaScript
+* JSON
+
+Additional Reading:
+
+https://www.w3schools.com/html/default.asp
+
+### Resource
+
+https://www.udemy.com/course/qlik-sense-api-essentials/
+
+---
+
+## 12. Qlik Mashup with Admin Web Templates
+
+**Duration:** 1 hour
+
+### Topics
+
+* Integrating Admin Templates with Qlik Sense Mashups
+
+### Resource
+
+https://www.youtube.com/watch?v=QPuvolJ_NbE&list=PLYjPUKwx_ZbchXt8UybfW4WtxzqU79kac
+
+### ✅ Assignment
+
+* Select an open-source Admin Dashboard template.
+* Integrate Qlik Sense objects into the template.
+* Ensure the application is responsive and visually appealing.
+* Demonstrate the completed Mashup to your Team Lead.
+
+---
+
+# 🎯 Final Project
+
+Build a complete Qlik Sense Mashup that demonstrates your understanding of:
+
+* HTML
+* CSS
+* JavaScript
+* JSON
+* Qlik Sense APIs
+* Qlik Sense Dev Hub
+* iFrame Embedding
+* Responsive UI Design
+
+The project should showcase both technical implementation and user experience.
+
+---
+
+# 📌 Recommended Learning Order
+
+* [ ] HTML & CSS
+* [ ] JavaScript
+* [ ] JSON
+* [ ] Chrome Developer Tools
+* [ ] Bootstrap *(Optional)*
+* [ ] Node.js *(Optional)*
+* [ ] React.js *(Optional)*
+* [ ] Qlik Sense Dev Hub
+* [ ] iFrame Embedding
+* [ ] Qlik Mashup Development
+* [ ] Qlik Sense APIs
+* [ ] Admin Template Integration
+* [ ] Final Project
+
+---
+
+## ⭐ Tips for Learners
+
+* Complete every assignment before moving to the next module.
+* Spend more time building projects than watching videos.
+* Use browser Developer Tools extensively while debugging.
+* Keep your code in GitHub and commit frequently.
+* Ask questions whenever you get stuck—hands-on practice is the fastest way to learn.
+
+---
+
+Happy Learning! 🚀
