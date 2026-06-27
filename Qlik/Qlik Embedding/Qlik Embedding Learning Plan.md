@@ -8,15 +8,6 @@ A structured learning roadmap for developers who want to build custom solutions 
 
 This training plan covers everything required to start developing custom Qlik Sense applications, from basic web development to advanced mashup development.
 
-By the end of this training, you will be able to:
-
-* Build modern web pages using HTML, CSS and JavaScript
-* Understand JSON and browser developer tools
-* Embed Qlik Sense applications using iFrames
-* Create Qlik Sense Mashups
-* Work with Qlik Sense APIs
-* Build responsive applications using modern web templates
-
 ---
 
 ## 📬 Contact
@@ -54,7 +45,6 @@ Understand the core technologies required before developing Qlik Sense Mashups.
 
 * Complete all exercises from the courses.
 * Build a small web project using HTML, CSS and JavaScript.
-* Demonstrate the project to your Team Lead.
 
 ---
 
@@ -173,7 +163,6 @@ https://www.youtube.com/watch?v=QPuvolJ_NbE&list=PLYjPUKwx_ZbchXt8UybfW4WtxzqU79
 * Select an open-source Admin Dashboard template.
 * Integrate Qlik Sense objects into the template.
 * Ensure the application is responsive and visually appealing.
-* Demonstrate the completed Mashup to your Team Lead.
 
 ---
 
@@ -191,34 +180,6 @@ Build a complete Qlik Sense Mashup that demonstrates your understanding of:
 * Responsive UI Design
 
 The project should showcase both technical implementation and user experience.
-
----
-
-# 📌 Recommended Learning Order
-
-* [ ] HTML & CSS
-* [ ] JavaScript
-* [ ] JSON
-* [ ] Chrome Developer Tools
-* [ ] Bootstrap *(Optional)*
-* [ ] Node.js *(Optional)*
-* [ ] React.js *(Optional)*
-* [ ] Qlik Sense Dev Hub
-* [ ] iFrame Embedding
-* [ ] Qlik Mashup Development
-* [ ] Qlik Sense APIs
-* [ ] Admin Template Integration
-* [ ] Final Project
-
----
-
-## ⭐ Tips for Learners
-
-* Complete every assignment before moving to the next module.
-* Spend more time building projects than watching videos.
-* Use browser Developer Tools extensively while debugging.
-* Keep your code in GitHub and commit frequently.
-* Ask questions whenever you get stuck—hands-on practice is the fastest way to learn.
 
 ---
 
