@@ -28,9 +28,7 @@ BI-Data-Engineering-Guide/
 ├── Cloud Data Platforms/
 │   ├── Snowflake/
 │   ├── Azure/
-├── BI Tools/
-│   ├── Qlik Sense/
-│   ├── Power BI/
+├── Qlik/
 ├── Python/
 ├── Best Practices/
 └── README.md
